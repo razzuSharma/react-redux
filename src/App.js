@@ -1,9 +1,10 @@
-import './components/Profile.js'
-import Profile from './components/Profile.js';
-
+import './components/Home.js'
+import HomeContainer from './container/HomeContainer'
 function App() {
   return (
-    <Profile/>
+    <div className='App'>
+      <HomeContainer />
+    </div>
   );
 }
 
